@@ -1,2 +1,2 @@
 # teleBotFramework
-Python framework for quick start telegram bot.
+Python framework for quick starting telegram bot.
