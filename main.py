@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import dependencies
+from dependencies import *
 import config
 
-bot = dependencies.telebot.TeleBot(config.token)
+bot = telebot.TeleBot(config.token)
 
 @bot.message_handler()
 def start(message):
